@@ -1,0 +1,79 @@
+#periodic {
+  margin: 0 auto;
+  width: 976px;
+  ul {
+    width: 70px;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 5px;
+    li {
+      float: left;
+      height: 70px;
+      width: 70px;
+      a {
+        float: left;
+        position: relative;
+        border: 1px solid #000;
+        color: #333;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: capitalize;
+        background-color: #666;
+        display: block;
+        width: 70px;
+        height:70px;
+        line-height: 30px;
+        padding: 3px;
+        line-height: 100px;
+        -webkit-box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
+        -moz-box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
+        -webkit-transition: ll 0.12s ease-out;
+        -moz-transition: ll 0.12s ease-out;
+      }
+      a:hover,a:focus {
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        left: -23px;
+        top: -23px;
+        z-index: 1;
+        background-color: #999;
+
+        -moz-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
+ 
+        -webkit-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
+         
+        // -webkit-animation-name: boxPulse;
+        // -webkit-animation-duration: .7s;
+        // -webkit-animation-iteration-count: infinite;
+        // -webkit-animation-delay: .12s;
+      }
+    }
+
+  }
+
+}
+
+@-webkit-keyframes boxPulse {
+  from {
+  width: 90px;
+  height: 90px;
+  left: -23px;
+  top: -23px;
+  -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+  width: 80px;
+  height: 80px;
+  top: -19px;
+  }
+  to {
+  width: 90px;
+  height: 90px;
+  left: -23px;
+  top: -23px;
+  -webkit-animation-timing-function: ease-out;
+  }
+}
+

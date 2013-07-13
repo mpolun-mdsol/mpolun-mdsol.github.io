@@ -1,7 +1,8 @@
 ;(function($) {
   console.log('doc ready');
   var cols = 12,
-      rows = ['aa','bb','cc','dd','ee','ff','gg'];
+      rows = 7,
+      possible = 'abcdefghijklmnopqrstuvwxyz';
 
   for(var i = 0; i < cols; i++) {
     console.log("make col");
@@ -10,9 +11,11 @@
       'id': 'col_'+i
     });
     var periodicBoxes = "";
-    for(var j = 0, len = rows.length; j < len; j++) {
+    for(var j = 0; j < rows; j++) {
       console.log('make row', '<li>' + rows[j] + '</li>');
-      periodicBoxes += '<li><a href="">' + rows[j] + '</a></li>';
+      var firstLetter =  possible.charAt(Math.floor(Math.random() * possible.length)),
+          secondLetter =  possible.charAt(Math.floor(Math.random() * possible.length));
+      periodicBoxes += '<li><a href="">' + firstLetter + secondLetter  + '</a></li>';
     }
     console.log($ul);
     $ul.html(periodicBoxes);

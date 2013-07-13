@@ -6,40 +6,42 @@ html {
 body {
   overflow: auto;
   height: 100%;
-  background-color: #333;
-  background: #333333; /* Old browsers */
-  background: -moz-linear-gradient(top,  #333333 0%, #222222 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333333), color-stop(100%,#222222)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #333333 0%,#222222 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #333333 0%,#222222 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #333333 0%,#222222 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #333333 0%,#222222 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#222222',GradientType=0 ); /* IE6-9 */
+  background: #555555; /* Old browsers */
+  background: -moz-linear-gradient(top,  #555555 0%, #333333 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#333333)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #555555 0%,#333333 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #555555 0%,#333333 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #555555 0%,#333333 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #555555 0%,#333333 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
   color: #fff;
   padding: 0;
 }
 header {
+  background-color: #eee;
   text-align: center;
-  border-bottom: 1px solid #aaa;
-  padding: 20px 0 0;
-  box-shadow: 0 3px 3px 3px #222;
+  border-bottom: 1px solid #333;
+  padding: 20px 0 20px;
+  box-shadow: 0 2px 5px 3px #333;
 }
 
 header h1 {
-  color: #fff;
-  font-weight: normal;
-  margin-top: 0;
+  margin: 0;
 }
 header h1 span {
-  font-size: 90%;
-  display: inline-block;
-  border-left: 1px solid #ccc;
-  padding-left: 20px;
+  margin-top: -40px;
+  height: 124px;
+  font-weight: normal;
+  color: #666;
+  display: inline;
+  padding: 45px 30px;
+  border-left: 1px solid #666;
+  text-shadow: 1px 1px 0px #fff;
+  margin-left: 20px;
 }
 
 header h1 img {
-  display: inline-block;
-  margin-top: -15px;
+  display: inline;
 }
 
 #main {

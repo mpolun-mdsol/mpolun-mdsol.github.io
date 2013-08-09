@@ -1,87 +1,246 @@
-
-html {
-  overflow: hidden;
-  height: 100%;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\000032}}
 body {
-  overflow: auto;
-  height: 100%;
-  background: #555555; /* Old browsers */
-  background: -moz-linear-gradient(top,  #555555 0%, #333333 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#333333)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #555555 0%,#333333 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #555555 0%,#333333 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #555555 0%,#333333 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #555555 0%,#333333 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
-  color: #fff;
-  padding: 0;
-}
-header {
-  background-color: #eee;
-  text-align: center;
-  border-bottom: 1px solid #333;
-  padding: 20px 0 20px;
-  box-shadow: 0 2px 5px 3px #333;
+  background: #101010;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header h1 {
-  margin: 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\000036}}
+header {
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+  width: 600px;
+  margin: 0 auto;
 }
-header h1 span {
-  margin-top: -40px;
-  height: 124px;
-  font-weight: normal;
-  color: #666;
-  display: inline;
-  padding: 45px 30px;
-  border-left: 1px solid #666;
-  text-shadow: 1px 1px 0px #fff;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000315}}
+header h1 > span {
+  margin-top: 5px;
+  float: left;
   margin-left: 20px;
 }
-
-header h1 img {
-  display: inline;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000321}}
+header .meta {
+  float: left;
+  margin-left: 20px;
+  color: #aaa;
+  font-size: 12px;
 }
-
-#main {
-  margin-top: 20px;
-}
-
-#projects {
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  width: 840px;
-
-}
-
-#projects > li {
-  outline: 1px solid #ccc;
-  margin-bottom: 10px;
-}
-
-#projects > li > a {
-  display: block;
-  padding: 15px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000326}}
+header .meta b {
   color: #fff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000330}}
+header .meta a, header .meta span {
+  color: #aaa;
+  margin-right: 10px;
+}
 
-#secondary {
-  width: 840px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000336}}
+.popover {
+  border-radius: 3px;
+  background: #5a5a9c;
+  border: 1px solid #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000341}}
+.popover .popover-title,
+.popover .popover-content {
+  background-color: #35355b;
+  color: #fff;
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000346}}
+.popover .popover-title {
+  font-weight: bold;
+  font-size: 110%;
+  background-color: #22223B;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000351}}
+.popover .arrow:after {
+  border-right-color: #232D54;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000356}}
+div.mdsol-logo {
+  float: left;
+  padding: 5px 0 0 5px;
+  background-color: #FFF;
+  border-radius: 10px;
+  width: 58px;
+  height: 58px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000364}}
+div.mdsol-logo .circle {
+  border-radius: 10px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-color: #000;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000373}}
+div.mdsol-logo .green {
+  border: none;
+  background-color: #777;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000378}}
+#main {
+  clear: both;
+  outline: 1px dotted #333;
+  margin: 20px auto;
+  border-bottom: 5px solid #444;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000384}}
+#main #periodic {
   margin: 0 auto;
+  outline: 1px dotted #333;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000388}}
+#main #periodic ul {
+  margin: 0 4px 0 0;
+  list-style-type: none;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000393}}
+#main #periodic li {
+  margin-bottom: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000395}}
+#main #periodic li a:link, #main #periodic li a:visited {
+  float: left;
+  text-shadow: 1px 1px 2px #333;
+  color: #eee;
+  display: block;
+  height: 150px;
+  width: 150px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003108}}
+#main #periodic li a:link span.symbol, #main #periodic li a:visited span.symbol {
+  font-size: 60px;
+  text-align: center;
+  display: block;
+  width: 65px;
+  margin: 65px auto 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003118}}
+#main #periodic li a:link .language,
+#main #periodic li a:link .forks,
+#main #periodic li a:link .watchers, #main #periodic li a:visited .language,
+#main #periodic li a:visited .forks,
+#main #periodic li a:visited .watchers {
+  display: block;
+  position: absolute;
+  text-align: left;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003124}}
+#main #periodic li a:link .language, #main #periodic li a:visited .language {
+  left: 4px;
+  bottom: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003128}}
+#main #periodic li a:link .forks, #main #periodic li a:visited .forks {
+  right: 4px;
+  bottom: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003132}}
+#main #periodic li a:link .watchers, #main #periodic li a:visited .watchers {
+  right: 4px;
+  top: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003138}}
+#main #periodic li.blank {
+  height: 158px;
+  width: 158px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003143}}
+#main #periodic a:hover, #main #periodic a:active {
+  text-decoration: none;
+  left: -13px;
+  top: -13px;
+  z-index: 1;
+  -moz-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
+  -webkit-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
 }
 
-#secondary div {
-  margin: 0;
-
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003159}}
+.purple {
+  background: #22223B;
+  border: 4px solid #232D54;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003163}}
+.purple:hover {
+  background: #333366;
+  border: 4px solid #4B4A98;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003167}}
+.blue {
+  background: #242D47;
+  border: 4px solid #2D395B;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003171}}
+.blue:hover {
+  background: #384A7D;
+  border: 4px solid #3962A5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003175}}
+.green {
+  background: #223342;
+  border: 4px solid #2B4258;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003179}}
+.green:hover {
+  background: #345573;
+  border: 4px solid #46749F;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003184}}
+#secondary {
+  padding: 20px 0;
+  background-color: #222;
+  color: #ccc;
+  font-weight: lighter;
+  font-size: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003191}}
+#secondary a {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003196}}
 footer {
   clear: both;
-  font-size: 10px;
-  color: #999;
-  width: 1140px;
-  margin: 0 auto;
+  margin-left: 30px;
 }
 
+@-webkit-keyframes boxPulse {
+  from {
+    width: 140px;
+    height: 140px;
+    left: -23px;
+    top: -23px;
+    -webkit-animation-timing-function: ease-out;
+  }
+
+  50% {
+    width: 150px;
+    height: 150px;
+    top: -19px;
+  }
+
+  to {
+    width: 140px;
+    height: 140px;
+    left: -23px;
+    top: -23px;
+    -webkit-animation-timing-function: ease-out;
+  }
+}

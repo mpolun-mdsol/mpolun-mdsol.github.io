@@ -48,18 +48,19 @@ header .meta a, header .meta span {
   color: #fff;
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000347}}
 .popover .popover-title {
   font-weight: bold;
   font-size: 110%;
   background-color: #22223B;
+  border-radius: 3px 3px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000353}}
 .popover .arrow:after {
   border-right-color: #232D54;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000358}}
 div.mdsol-logo {
   float: left;
   padding: 5px 0 0 5px;
@@ -68,7 +69,7 @@ div.mdsol-logo {
   width: 58px;
   height: 58px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000366}}
 div.mdsol-logo .circle {
   border-radius: 10px;
   display: block;
@@ -78,43 +79,41 @@ div.mdsol-logo .circle {
   float: left;
   margin: 0 5px 5px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000375}}
 div.mdsol-logo .green {
   border: none;
   background-color: #777;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000380}}
 #main {
   clear: both;
-  outline: 1px dotted #333;
   margin: 20px auto;
-  border-bottom: 5px solid #444;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000386}}
 #main #periodic {
   margin: 0 auto;
-  outline: 1px dotted #333;
-  margin-bottom: 20px;
+  padding-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000389}}
 #main #periodic ul {
   margin: 0 4px 0 0;
   list-style-type: none;
   float: left;
+  width: 128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000395}}
 #main #periodic li {
   margin-bottom: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\0000399}}
 #main #periodic li a:link, #main #periodic li a:visited {
   float: left;
   text-shadow: 1px 1px 2px #333;
   color: #eee;
   display: block;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   position: relative;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003108}}
@@ -151,19 +150,23 @@ div.mdsol-logo .green {
   right: 4px;
   top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003138}}
-#main #periodic li.blank {
-  height: 158px;
-  width: 158px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003140}}
 #main #periodic a:hover, #main #periodic a:active {
   text-decoration: none;
-  left: -13px;
-  top: -13px;
+  left: -5px;
+  top: -5px;
   z-index: 1;
-  -moz-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
-  -webkit-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
+  -moz-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a;
+  -webkit-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003152}}
+.blank {
+  float: left;
+  background: #333;
+  padding: 0;
+  height: 128px;
+  width: 128px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003159}}
@@ -204,43 +207,28 @@ div.mdsol-logo .green {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003184}}
 #secondary {
-  padding: 20px 0;
   background-color: #222;
   color: #ccc;
   font-weight: lighter;
   font-size: 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003189}}
 #secondary a {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003195}}
 footer {
+  overflow: hidden;
+  border-top: 5px solid #444;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   clear: both;
-  margin-left: 30px;
+  padding-bottom: 20px;
 }
-
-@-webkit-keyframes boxPulse {
-  from {
-    width: 140px;
-    height: 140px;
-    left: -23px;
-    top: -23px;
-    -webkit-animation-timing-function: ease-out;
-  }
-
-  50% {
-    width: 150px;
-    height: 150px;
-    top: -19px;
-  }
-
-  to {
-    width: 140px;
-    height: 140px;
-    left: -23px;
-    top: -23px;
-    -webkit-animation-timing-function: ease-out;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/mdsol-oss\.scss}line{font-family:\00003202}}
+footer .copyright {
+  font-weight: normal;
+  color: #999;
 }

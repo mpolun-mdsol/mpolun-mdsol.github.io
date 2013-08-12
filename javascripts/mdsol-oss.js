@@ -117,9 +117,9 @@ $(function() {
     'html':'tr'
   });
 
-  var height = $('footer').height() + 50;
-  $('footer').animate({
-      height: "-="+ height 
-    },500);
+  // var height = $('footer').height() + 50;
+  // $('footer').animate({
+  //     height: "-="+ height 
+  //   },500);
 
 });

@@ -1,10 +1,17 @@
 body {
-  background: #101010;
+  background: #222;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header-wrap {
+  background-color: #101010;
+  width: 100%;
+  margin: 0;
 }
 
 header {
   padding-top: 20px;
+  background-color: #101010;
   text-align: center;
   color: #fff;
   width: 600px;
@@ -55,7 +62,8 @@ div.mdsol-logo .green {
 
 #main {
   clear: both;
-  margin: 20px auto;
+  background-color: #101010;
+  margin: 0 auto;
 }
 #main #periodic {
   margin: 0 auto;
@@ -168,10 +176,9 @@ div.mdsol-logo .green {
 footer {
   overflow: hidden;
   border-top: 5px solid #444;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   clear: both;
+  margin-top: 60px;
   padding-bottom: 20px;
 }
 footer .copyright {

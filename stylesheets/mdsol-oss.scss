@@ -16,6 +16,7 @@ header {
       margin-top: 5px;
       float: left;
       margin-left: 20px;
+      text-shadow: 1px 1px 3px #666;
     }
   }
   .meta {
@@ -33,48 +34,49 @@ header {
     }
   }
 }
-.popover {
-  border-radius: 3px;
-  background: lighten(#22223B, 30%);
-  border: 1px solid #fff;
-  .popover-title,
-  .popover-content {
-    background-color: lighten(#22223B, 10%);
-    color: #fff;  
-    border: 0;
+// .popover {
+//   border-radius: 3px;
+//   background: lighten(#22223B, 30%);
+//   border: 1px solid #fff;
+//   .popover-title,
+//   .popover-content {
+//     background-color: lighten(#22223B, 10%);
+//     color: #fff;  
+//     border: 0;
 
-  }
-  .popover-title {
-    font-weight: bold;
-    font-size: 110%;
-    background-color: #22223B;
-    border-radius: 3px 3px 0 0; 
-  }
-    .arrow:after {
-      border-right-color: #232D54;
-    }
+//   }
+//   .popover-title {
+//     font-weight: bold;
+//     font-size: 110%;
+//     background-color: #22223B;
+//     border-radius: 3px 3px 0 0; 
+//   }
+//     .arrow:after {
+//       border-right-color: #232D54;
+//     }
 
-}
+// }
 div.mdsol-logo {
   float: left; 
   padding: 5px 0 0 5px;
-  background-color: #FFF;
+  background-color: #006;
   border-radius: 10px;
   width: 58px;
   height: 58px;
+  box-shadow: 1px 1px 3px 1px #333;
 
   .circle {
     border-radius: 10px;
     display: block;
     width: 14px;
     height: 14px;
-    background-color: #000;
+    background-color: #999;
     float: left;
     margin: 0 5px 5px 0;
   }
   .green {
     border: none;
-    background-color: #777; 
+    background-color: #3c0; 
   }
 }
 #main {

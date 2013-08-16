@@ -2,9 +2,6 @@
 body {
   background: #222;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  @media screen and (max-width: 767px) {
-    padding:0;
-  }
 }
 .header-wrap {
   background-color: #101010;
@@ -43,28 +40,7 @@ header {
     }
   }
 }
-// .popover {
-//   border-radius: 3px;
-//   background: lighten(#22223B, 30%);
-//   border: 1px solid #fff;
-//   .popover-title,
-//   .popover-content {
-//     background-color: lighten(#22223B, 10%);
-//     color: #fff;  
-//     border: 0;
 
-//   }
-//   .popover-title {
-//     font-weight: bold;
-//     font-size: 110%;
-//     background-color: #22223B;
-//     border-radius: 3px 3px 0 0; 
-//   }
-//     .arrow:after {
-//       border-right-color: #232D54;
-//     }
-
-// }
 div.mdsol-logo {
   float: left; 
   padding: 5px 0 0 5px;
@@ -109,7 +85,6 @@ div.mdsol-logo {
       
     }
     li {
-      //float: left;
       margin-bottom: 4px;
 
       a:link, a:visited {
@@ -158,8 +133,8 @@ div.mdsol-logo {
       left: -5px;
       top: -5px;
       z-index: 1;
-      -moz-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a;
-      -webkit-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a;   
+      -moz-box-shadow: 1px 1px #2B4258, 2px 2px #3962A5, 3px 3px #2B4258, 4px 4px #2B4258, 5px 5px #2B4258, 6px 6px #2B4258;
+      -webkit-box-shadow: 1px 1px #2B4258, 2px 2px #3962A5, 3px 3px #2B4258, 4px 4px #2B4258, 5px 5px #2B4258, 6px 6px #2B4258;   
     }
   }
 }
@@ -171,6 +146,7 @@ div.mdsol-logo {
   padding: 0;
   height: 128px;
   width: 128px;
+  opacity: 0.7;
 
   &.black {
     background-color: transparent;
@@ -224,10 +200,8 @@ a.green:hover {
   a {
     font-weight: bold;
   }
-  @media screen and (max-width: 767px) {
-    p {
-      width: 90%;
-    }
+  .container {
+     width: 800px;
   }
 }
 
@@ -242,9 +216,6 @@ footer {
     color: #999;
   }
   padding-bottom: 20px;
-  @media screen and (max-width: 767px) {
-    padding: 20px;
-  }
 }
 
 

@@ -2,11 +2,6 @@ body {
   background: #222;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-@media screen and (max-width: 767px) {
-  body {
-    padding: 0;
-  }
-}
 
 .header-wrap {
   background-color: #101010;
@@ -130,8 +125,8 @@ div.mdsol-logo .green {
   left: -5px;
   top: -5px;
   z-index: 1;
-  -moz-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a;
-  -webkit-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a;
+  -moz-box-shadow: 1px 1px #2B4258, 2px 2px #3962A5, 3px 3px #2B4258, 4px 4px #2B4258, 5px 5px #2B4258, 6px 6px #2B4258;
+  -webkit-box-shadow: 1px 1px #2B4258, 2px 2px #3962A5, 3px 3px #2B4258, 4px 4px #2B4258, 5px 5px #2B4258, 6px 6px #2B4258;
 }
 
 .blank {
@@ -140,6 +135,7 @@ div.mdsol-logo .green {
   padding: 0;
   height: 128px;
   width: 128px;
+  opacity: 0.7;
 }
 .blank.black {
   background-color: transparent;
@@ -190,10 +186,8 @@ a.green:hover {
 #secondary a {
   font-weight: bold;
 }
-@media screen and (max-width: 767px) {
-  #secondary p {
-    width: 90%;
-  }
+#secondary .container {
+  width: 800px;
 }
 
 footer {
@@ -207,9 +201,4 @@ footer {
 footer .copyright {
   font-weight: normal;
   color: #999;
-}
-@media screen and (max-width: 767px) {
-  footer {
-    padding: 20px;
-  }
 }

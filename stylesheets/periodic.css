@@ -1,9 +1,7 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/periodic\.scss}line{font-family:\000031}}
 #periodic {
   margin: 0 auto;
   width: 976px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/periodic\.scss}line{font-family:\000034}}
 #periodic ul {
   width: 70px;
   float: left;
@@ -11,14 +9,12 @@
   margin: 0;
   margin-right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/periodic\.scss}line{font-family:\0000310}}
 #periodic ul li {
   float: left;
   height: 77px;
   width: 77px;
   margin-bottom: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/periodic\.scss}line{font-family:\0000315}}
 #periodic ul li a {
   float: left;
   text-shadow: 1px 1px 2px #333;
@@ -34,7 +30,6 @@
   padding: 3px;
   line-height: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bzuniga\/projects\/mdsol\.github\.io\/stylesheets\/periodic\.scss}line{font-family:\0000335}}
 #periodic ul li a:hover, #periodic ul li a:focus {
   width: 90px;
   height: 90px;

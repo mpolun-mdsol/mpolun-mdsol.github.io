@@ -5,6 +5,14 @@ body {
     body {
       padding: 0; } }
 
+.navbar {
+  margin-bottom: 0; }
+  .navbar .container {
+    width: 940px;
+    padding: 0 15px; }
+    .navbar .container .nav-collapse {
+      padding: 0 15px; }
+
 .header-wrap {
   background-color: #101010;
   width: 100%;
@@ -73,7 +81,7 @@ div.mdsol-logo {
     margin: 0 auto;
     padding-bottom: 0; }
     #main #periodic > div {
-      margin: 0 auto;
+      margin: 65px auto;
       width: 800px; }
     #main #periodic ul {
       margin: 0 4px 0 0;

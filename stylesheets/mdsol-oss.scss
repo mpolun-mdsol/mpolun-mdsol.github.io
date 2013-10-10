@@ -9,7 +9,18 @@ body {
   }
 }
 
-
+.navbar {
+	margin-bottom: 0;
+	
+	.container {
+		width: 940px;
+		padding: 0 15px;
+		
+		.nav-collapse {
+			padding: 0 15px;
+		}
+	}
+}
 
 .header-wrap {
   background-color: #101010;
@@ -98,7 +109,7 @@ div.mdsol-logo {
     margin: 0 auto;
     padding-bottom: 0;
     > div {
-      margin: 0 auto;
+      margin: 65px auto;
       width: 800px;
     }
     ul {

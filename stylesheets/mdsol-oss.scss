@@ -18,6 +18,9 @@ body {
 		
 		.nav-collapse {
 			padding: 0 15px;
+			li > a {
+				padding: 15px;
+			}
 		}
 	}
 }

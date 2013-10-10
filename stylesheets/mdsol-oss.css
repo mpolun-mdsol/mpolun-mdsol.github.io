@@ -12,6 +12,8 @@ body {
     padding: 0 15px; }
     .navbar .container .nav-collapse {
       padding: 0 15px; }
+      .navbar .container .nav-collapse li > a {
+        padding: 15px; }
 
 .header-wrap {
   background-color: #101010;

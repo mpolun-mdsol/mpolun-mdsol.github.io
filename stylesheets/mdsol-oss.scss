@@ -2,7 +2,7 @@ $break-med: 767px;
 $break-small: 320px;
 
 body {
-  background: #222;
+  background: black;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   @media screen and (max-width: $break-med) {
     padding: 0;
@@ -10,11 +10,10 @@ body {
 }
 
 .navbar {
-	margin-bottom: 0;
+	margin: 0 auto;
 	
 	.container {
-		width: 940px;
-		padding: 0 15px;
+		padding: 0 55px;
 		
 		.nav-collapse {
 			padding: 0 15px;

@@ -18,6 +18,10 @@ body {
 		
 		.nav-collapse {
 			padding: 0 15px;
+			margin-top: 16px;
+			font-size: 13px;
+			font-weight: 500;
+			
 			li > a {
 				padding: 15px;
 			}
@@ -25,82 +29,36 @@ body {
 	}
 }
 
-.header-wrap {
-  background-color: #101010;
-  width: 100%;
-  margin: 0;
-}
-
-header {
-  padding-top: 20px;
-  background-color: #101010;
-  text-align: center;
-  color: #fff;
-  width: 600px;
-  margin: 0 auto;
-  
-  h1 {  
-    > span {
-      margin-top: 5px;
-      float: left;
-      margin-left: 20px;
-      text-shadow: 1px 1px 3px #666;
-    }
-  }
-  .meta {
-    float: left;
-    margin-left: 20px;
-    color: #aaa;
-    font-size: 12px;
-    b {
-      color: #fff;
-
-    }
-    a,span {
-      color: #aaa;
-      margin-right: 10px;
-    }
-  }
-  @media screen and (max-width: $break-med) {
-    width: auto;
-    text-align: left;
-    h1 {
-      font-size: 160%;
-      float: none;
-    }
-    .meta {
-      float: none;
-      clear: both;
-    }
-    div.mdsol-logo {
-      display: none;
-      //display: inline-block;
-    }
-  }
-}
-
-div.mdsol-logo {
-  float: left; 
-  padding: 5px 0 0 5px;
-  background-color: #006;
-  border-radius: 10px;
-  width: 58px;
-  height: 58px;
-  box-shadow: 1px 1px 3px 1px #333;
-
-  .circle {
-    border-radius: 10px;
-    display: block;
-    width: 14px;
-    height: 14px;
-    background-color: #999;
-    float: left;
-    margin: 0 5px 5px 0;
-  }
-  .green {
-    border: none;
-    background-color: #3c0; 
-  }
+.brand {
+	float: left;
+	#cloud-logo {
+		padding: 0;
+		margin: 0;
+		
+		img {
+			vertical-align: middle;
+			display: inline-block;
+			margin-top: -12px;
+		}
+	}
+	
+	.title {
+		padding: 5px 0;
+		padding-left: 15px;
+		border-left: 1px solid #ddd;
+		font-size: 14px;
+		display: inline-block;
+		line-height: 1.1;
+		
+		strong {
+			font-size: 18px;
+			display: block;
+		}
+		span {
+			font-size: 14px;
+			font-weight: 500;
+		}
+	}
 }
 
 #main {

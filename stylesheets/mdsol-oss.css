@@ -1,191 +1,51 @@
-body {
-  background: black;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  @media screen and (max-width: 767px) {
-    body {
-      padding: 0; } }
-
-.navbar {
-  margin: 0 auto; }
-  .navbar .container {
-    padding: 0 55px; }
-    .navbar .container .nav-collapse {
-      padding: 0 15px;
-      margin-top: 16px;
-      font-size: 13px;
-      font-weight: 500; }
-      .navbar .container .nav-collapse li > a {
-        padding: 15px; }
-
-.brand {
-  float: left; }
-  .brand #cloud-logo {
-    padding: 0;
-    margin: 0; }
-    .brand #cloud-logo img {
-      vertical-align: middle;
-      display: inline-block;
-      margin-top: -12px; }
-  .brand .title {
-    padding: 5px 0;
-    padding-left: 15px;
-    border-left: 1px solid #ddd;
-    font-size: 14px;
-    display: inline-block;
-    line-height: 1.1; }
-    .brand .title strong {
-      font-size: 18px;
-      display: block; }
-    .brand .title span {
-      font-size: 14px;
-      font-weight: 500; }
-
-#main {
-  clear: both;
-  background-color: #101010;
-  margin: 0 auto; }
-  #main #periodic {
-    margin: 0 auto;
-    padding-bottom: 0; }
-    #main #periodic > div {
-      margin: 65px auto;
-      width: 800px; }
-    #main #periodic ul {
-      margin: 0 4px 0 0;
-      list-style-type: none;
-      float: left;
-      width: 128px; }
-    #main #periodic li {
-      margin-bottom: 4px; }
-      #main #periodic li a:link, #main #periodic li a:visited {
-        float: left;
-        text-shadow: 1px 1px 2px #333;
-        color: #eee;
-        display: block;
-        height: 120px;
-        width: 120px;
-        position: relative; }
-        #main #periodic li a:link span.symbol, #main #periodic li a:visited span.symbol {
-          font-size: 60px;
-          text-align: center;
-          display: block;
-          width: 65px;
-          margin: 65px auto 0; }
-        #main #periodic li a:link .language,
-        #main #periodic li a:link .forks,
-        #main #periodic li a:link .watchers, #main #periodic li a:visited .language,
-        #main #periodic li a:visited .forks,
-        #main #periodic li a:visited .watchers {
-          display: block;
-          position: absolute;
-          text-align: left;
-          font-size: 12px; }
-        #main #periodic li a:link .language, #main #periodic li a:visited .language {
-          left: 4px;
-          bottom: 4px; }
-        #main #periodic li a:link .forks, #main #periodic li a:visited .forks {
-          right: 4px;
-          bottom: 4px; }
-        #main #periodic li a:link .watchers, #main #periodic li a:visited .watchers {
-          right: 4px;
-          top: 4px; }
-    #main #periodic a:hover, #main #periodic a:active {
-      text-decoration: none;
-      left: -5px;
-      top: -5px;
-      z-index: 1;
-      -moz-box-shadow: 1px 1px #2B4258, 2px 2px #3962A5, 3px 3px #2B4258, 4px 4px #2B4258, 5px 5px #2B4258, 6px 6px #2B4258;
-      -webkit-box-shadow: 1px 1px #2B4258, 2px 2px #3962A5, 3px 3px #2B4258, 4px 4px #2B4258, 5px 5px #2B4258, 6px 6px #2B4258; }
-    @media screen and (max-width: 767px) {
-      #main #periodic > div {
-        width: auto; }
-      #main #periodic .blank {
-        display: none; }
-      #main #periodic ul {
-        float: none;
-        width: 100%; }
-        #main #periodic ul li a {
-          width: 90% !important;
-          margin: 0 auto;
-          float: none !important; } }
-
-.blank {
-  float: left;
-  background: #333;
-  padding: 0;
-  height: 128px;
-  width: 128px;
-  opacity: 0.7; }
-  .blank.black {
-    background-color: transparent; }
-  .blank.blue, .blank.green, .blank.purple {
-    border: none; }
-  .blank:hover {
-    border: none; }
-
-.purple {
-  background: #22223B;
-  border: 4px solid #232D54; }
-
-a.purple:hover {
-  background: #333366;
-  border: 4px solid #4B4A98; }
-
-.blue {
-  background: #242D47;
-  border: 4px solid #2D395B; }
-
-a.blue:hover {
-  background: #384A7D;
-  border: 4px solid #3962A5; }
-
-.green {
-  background: #223342;
-  border: 4px solid #2B4258; }
-
-a.green:hover {
-  background: #345573;
-  border: 4px solid #46749F; }
-
-footer {
-  background-color: #222;
-  color: #ccc;
-  font-weight: lighter;
-  font-size: 13px;
-  overflow: hidden;
-  border-top: 5px solid #444;
-  width: 100%;
-  clear: both;
-  margin-top: 60px; }
-  footer a {
-    font-weight: bold; }
-  footer .container {
-    width: 800px; }
-    footer .container .span4 {
-      margin: 15px 15px;
-      width: 370px; }
-    footer .container .copyright {
-      margin: 15px 15px;
-      clear: both;
-      font-weight: normal;
-      color: #999; }
-  @media screen and (max-width: 767px) {
-    footer {
-      padding: 10px;
-      padding-right: 0; }
-      footer .container {
-        width: auto; }
-        footer .container .span4 {
-          margin: 0;
-          width: 95%; }
-        footer .container .copyright {
-          margin: 0;
-          width: 95%;
-          clear: both;
-          font-weight: normal;
-          color: #999; }
-      footer p {
-        width: 90%; } }
-
-.popover .popover-title {
-  font-weight: bold; }
+header #cloud-logo {
+  margin: 0;
+}
+header #cloud-logo img {
+  display: inline-block;
+  margin-top: -12px;
+}
+header #cloud-logo .title {
+  padding: 5px 0;
+  border-left: 1px solid #ddd;
+  padding-left: 15px;
+  font-size: 14px;
+  display: inline-block;
+}
+header #cloud-logo .title strong {
+  font-size: 125%;
+  display: block;
+}
+header #cloud-logo .title span {
+  color: #999;
+}
+@media (max-width: 420px) {
+  header #cloud-logo .title {
+    font-size: 11px;
+  }
+}
+header .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+header .navbar-collapse {
+  margin-top: 16px;
+  float: right;
+  font-size: 90%;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  header .navbar-collapse {
+    float: none;
+  }
+}
+header .navbar-brand {
+  padding: 10px 0 0;
+}
+header .navbar-default .navbar-toggle {
+  border-color: #ddd;
+  border-radius: 2px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  margin-right: 0;
+}

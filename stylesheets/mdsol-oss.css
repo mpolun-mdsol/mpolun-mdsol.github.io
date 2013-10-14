@@ -1,3 +1,29 @@
+html {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  height: 100%;
+  background: #111111;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #111111 0%, #222222 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #111111), color-stop(100%, #222222));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #111111 0%, #222222 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #111111 0%, #222222 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #111111 0%, #222222 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #111111 0%, #222222 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#111111', endColorstr='#222222',GradientType=0 );
+  /* IE6-9 */
+}
+
 header #cloud-logo {
   margin: 0;
 }
@@ -48,4 +74,133 @@ header .navbar-default .navbar-toggle {
   margin-top: 15px;
   margin-bottom: 0;
   margin-right: 0;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 10px !important;
+  margin-bottom: 20px;
+  border-top: 1px solid #666;
+  color: #bbb;
+  font-weight: 200;
+}
+footer .corporate-link {
+  font-size: 85%;
+}
+footer .corporate-link img {
+  display: block;
+}
+footer .copyright {
+  font-size: 80%;
+  color: #999;
+  padding: 15px;
+}
+footer .tags {
+  float: right;
+  color: #999;
+}
+footer .tags ul {
+  display: inline-block;
+}
+footer .tags li {
+  display: inline-block;
+}
+footer .tags li .label {
+  color: #888;
+  text-shadow: none;
+  background-color: #eee;
+}
+@media (max-width: 765px) {
+  footer {
+    padding: 15px !important;
+  }
+}
+@media (max-width: 476px) {
+  footer .tags {
+    float: none;
+  }
+}
+
+#periodic {
+  margin: 0 auto;
+  width: 830px;
+}
+#periodic ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 118px;
+}
+#periodic ul li {
+  margin: 4px;
+  float: left;
+}
+#periodic ul li a {
+  float: left;
+  display: block;
+  height: 110px;
+  width: 110px;
+  position: relative;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  color: #eee;
+}
+#periodic ul li a .symbol {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 105px;
+  text-align: center;
+  display: block;
+}
+#periodic ul li a .language,
+#periodic ul li a .forks,
+#periodic ul li a .watchers {
+  display: block;
+  position: absolute;
+  font-size: 12px;
+}
+#periodic ul li a .language {
+  left: 4px;
+  bottom: 4px;
+}
+#periodic ul li a .forks {
+  right: 4px;
+  top: 4px;
+}
+#periodic ul li a .watchers {
+  right: 4px;
+  bottom: 4px;
+}
+#periodic ul li a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+#periodic .purple {
+  background: #22223B;
+  border: 4px solid #232D54;
+}
+#periodic .purple:hover {
+  background: #333366;
+  border: 4px solid #4B4A98;
+}
+#periodic .blue {
+  background: #242D47;
+  border: 4px solid #2D395B;
+}
+#periodic .blue:hover {
+  background: #384A7D;
+  border: 4px solid #3962A5;
+}
+#periodic .green {
+  background: #223342;
+  border: 4px solid #2B4258;
+}
+#periodic .green:hover {
+  background: #223342;
+  border: 4px solid #2B4258;
+}
+#periodic .blank {
+  height: 110px;
+  width: 110px;
 }

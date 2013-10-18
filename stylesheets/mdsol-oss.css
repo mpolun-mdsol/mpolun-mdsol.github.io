@@ -203,6 +203,7 @@ footer .tags li .label {
 #periodic li.purple a:hover {
   background: #333366;
   border: 4px solid #4B4A98;
+  box-shadow: 0 0 10px 1px #4B4A98;
 }
 #periodic li.blue {
   background: #242D47;
@@ -213,6 +214,7 @@ footer .tags li .label {
 #periodic li.blue a:hover {
   background: #384A7D;
   border: 4px solid #3962A5;
+  box-shadow: 0 0 10px 1px #3962A5;
 }
 #periodic li.green {
   background: #223342;
@@ -223,6 +225,7 @@ footer .tags li .label {
 #periodic li.green a:hover {
   background: #345573;
   border: 4px solid #46749F;
+  box-shadow: 0 0 10px 1px #46749F;
 }
 #periodic li.black {
   background-color: transparent;
